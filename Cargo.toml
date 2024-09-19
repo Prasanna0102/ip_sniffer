@@ -1,0 +1,15 @@
+[package]
+name = "ip_sniffer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bpaf = "0.9.14" # Adjust version if necessary
+tokio = { version = "1", features = ["full"] }
+indicatif = "0.17"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+
+
+
